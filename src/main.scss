@@ -1,0 +1,20 @@
+.slider {
+  width: 1000px;
+  background: #666;
+  overflow: hidden;
+}
+.slider-track {
+  display:  flex;
+  justify-content: center;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  transition: all .3s;
+}
+
+.item {
+  width: 24%;
+  height: 100px;
+  margin: 0 0.5%;
+  background: red;
+  flex: 0 0 auto;
+}
